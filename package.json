@@ -1,6 +1,6 @@
 {
   "name": "blockfolio",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "cli and module for convenient access to blockfolio",
   "main": "lib/index.js",
   "preferGlobal": true,
