@@ -1,4 +1,5 @@
 # Blockfolio node module
+cli and node module for convenient access to blockfolio
 
 ## Getting started:
 if using cli tool, install module globally
@@ -23,7 +24,7 @@ BLOCKFOLIO_COLUMN_WIDTH=smaller_widths_truncate_cell_data
 # override column limit to 7:
   blockfolio 7
 ```
-
+![Alt text](/media/blockfolio.png "blockfolio")
 ### module usage
 ```
 const blockfolio = require('blockfolio');

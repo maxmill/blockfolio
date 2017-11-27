@@ -1,7 +1,7 @@
 {
   "name": "blockfolio",
   "version": "0.5.0",
-  "description": "access your blockfolio data",
+  "description": "cli and module for convenient access to blockfolio",
   "main": "lib/index.js",
   "preferGlobal": true,
   "bin": {
@@ -33,5 +33,17 @@
     "eslint": "3.x",
     "eslint-config-airbnb-base": "11.x",
     "eslint-plugin-import": "2.x"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmill/blockfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxmill/blockfolio/issues"
+  },
+  "homepage": "https://github.com/maxmill/blockfolio#readme"
 }
