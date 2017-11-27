@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "prefer-const": "error",
+    "no-unused-expressions": 0,
+    "no-underscore-dangle":0,
+    "no-tabs": 0,
+    "max-len": ["error", 121],
+    "func-names": 0,
+    "no-console": "off"
+  },
+  "globals": {
+    "window": false,
+    "document": false
+  },
+  "extends": [
+    "airbnb-base"
+  ]
+}

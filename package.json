@@ -1,0 +1,37 @@
+{
+  "name": "blockfolio",
+  "version": "0.5.0",
+  "description": "access your blockfolio data",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "blockfolio": "lib/index.js"
+  },
+  "scripts": {
+    "start": "node lib",
+    "test": "ava",
+    "format": "clang-format -i -style=Google --glob=lib/**/*.js",
+    "lint": "eslint . --fix"
+  },
+  "keywords": [
+    "blockfolio",
+    "blockchain",
+    "portfolio",
+    "coin",
+    "cryptocurrency"
+  ],
+  "author": "Max Millien",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table2": "0.x",
+    "colors": "1.x",
+    "debug": "3.x",
+    "node-fetch": "1.x"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "eslint": "3.x",
+    "eslint-config-airbnb-base": "11.x",
+    "eslint-plugin-import": "2.x"
+  }
+}
