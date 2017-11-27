@@ -5,12 +5,12 @@
   "main": "lib/index.js",
   "preferGlobal": true,
   "bin": {
-    "blockfolio": "lib/index.js"
+    "blockfolio": "bin/index.js"
   },
   "scripts": {
-    "start": "node lib",
+    "start": "node bin",
     "test": "ava",
-    "format": "clang-format -i -style=Google --glob=lib/**/*.js",
+    "format": "clang-format -i -style=Google --glob=bin/**/*.js",
     "lint": "eslint . --fix"
   },
   "keywords": [
