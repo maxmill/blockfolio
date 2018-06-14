@@ -23,7 +23,7 @@
   "author": "Max Millien",
   "license": "MIT",
   "dependencies": {
-    "cli-table2": "0.x",
+    "cli-table3": "0.x",
     "colors": "1.x",
     "debug": "3.x",
     "node-fetch": "1.x"
